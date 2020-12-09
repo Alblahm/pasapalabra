@@ -408,7 +408,7 @@ body {
   position: relative;
   background-color: #5391fa;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.25rem;
+  font-size: 2.1rem;
   font-weight: 900; }
 
 @media (min-width: 54.75em) {
@@ -587,6 +587,10 @@ body {
       background-image: radial-gradient(circle, #9ee379, #4caf50); }
     .circle .item--failure {
       background-image: radial-gradient(circle, #b9121b, #8e001c); }
+    .circle .item--pass {
+      background-image: radial-gradient(circle, #0074d9, #004bff); }
+    .circle .item--active {
+      border: 7px solid #89ff00;}
 
 .scoreboard {
   margin: 0 0 1em 2em;
@@ -595,7 +599,8 @@ body {
   @media (min-width: 54.75em) {
     .scoreboard {
       position: absolute;
-      bottom: 0;
+      top: 24%;
+	  left:34%;
       display: flex;
       flex-direction: column;
       align-items: center; } }
@@ -608,6 +613,7 @@ body {
     background-image: radial-gradient(circle, #0074d9, #004b8d);
     color: #fff;
     font-weight: 900;
+	font-size: 3.5rem;
     line-height: 2.8125em;
     text-align: center;
     text-decoration: none;
@@ -616,11 +622,12 @@ body {
     display: block;
     width: 2.8125em;
     height: 1.6875em;
-    margin-top: .5em;
+    margin-top: 3.6em;
     border: 2px solid #fff;
     background-image: radial-gradient(circle, #0074d9, #004b8d);
     color: #fff;
     font-weight: 900;
+	font-size: 3.5rem;
     line-height: 1.6875em;
     text-align: center;
     text-decoration: none;
@@ -631,17 +638,17 @@ body {
   top: 25%;
   left: 50%;
   transform: translate(-50%, -25%); }
-  @media (min-width: 54.75em) {
+  @media (min-width: 74.75em) {
     .title-container {
       top: 50%;
       margin: 0;
       transform: translate(-50%, -50%); } }
   .title-container .title {
     display: none; }
-    @media (min-width: 54.75em) {
+    @media (min-width: 74.75em) {
       .title-container .title {
         color: #fff;
-        font-size: 2.5rem;
+        font-size: 3.5rem;
         display: block; } }
 
 /* Controls
@@ -652,7 +659,7 @@ body {
   @media (min-width: 54.75em) {
     .controls-container {
       position: relative;
-      width: 50%;
+      width: 60%;
       height: 100%;
       padding: 0; } }
   .controls-container .icon-close {
@@ -682,7 +689,7 @@ body {
         background-color: #4caf50; }
 
 .ng-controls {
-  width: 80%;
+  width: 90%;
   max-width: none;
   margin-left: auto;
   margin-right: auto; }
@@ -694,27 +701,29 @@ body {
       margin: 0;
       transform: translate(-50%, -50%); } }
   .ng-controls .btn {
-    margin-top: 1em; }
+    margin-top: 0.2em; }
   .ng-controls h4 {
     color: #fff;
+	font-size: 2.6rem;
     text-transform: uppercase; }
   .ng-controls p {
     color: #fff;
-    font-size: .9rem;
+    font-size: 2.2rem;
     margin-left: auto;
     margin-right: auto;
+	margin-bottom: 1.2rem;
     margin-top: 0; }
 
 .question-controls {
-  width: 80%;
+  width: 100%;
   max-width: none;
   margin-left: auto;
   margin-right: auto; }
   @media (min-width: 54.75em) {
     .question-controls {
       position: absolute;
-      top: 50%;
-      left: 50%;
+      top: 30%;
+      left: 48%;
       margin: 0;
       transform: translate(-50%, -50%);
       width: 90%; } }
@@ -723,12 +732,14 @@ body {
     border: 0;
     border-radius: 3px; }
   .question-controls .definition {
-    margin-top: 0;
+    margin-top: 1em;
+	margin-bottom: 2em;
     color: #fff;
-    font-size: 1rem; }
+    font-size: 1.8rem; }
   .question-controls .hint {
-    color: #fff;
-    font-size: 1.75rem; }
+    color: #0f0;
+    margin-bottom: 3.2rem;
+    font-size: 3.5rem; }
 
 .pa-controls {
   width: 80%;
