@@ -8,6 +8,4 @@
 ### How it works
 - Once there click on **Jugar** to start game.
 
-![Click play to start game](https://github.com/MarioTerron/pasapalabra/blob/master/img/01.jpg)
-
 
