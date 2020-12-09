@@ -6,20 +6,25 @@
 ---
 
 ### How it works
-- Download the zip file to your computer and enter into the players folder
-- Select one of the available players and open the index.html main web page.
+- Download the zip file to your computer and browse the players folder.
+- Select one of the available players, go to this folder and open the "index.html" main web page.
 - Once there click on **Jugar** to start game.
 
-If you want to add another player open the second index.html for the second player.
- - Only when you click "siguiente" the timer is running.
-	- As soon as you click "comprobar" the timer stops and you can change to the other player or continue with the same depending if the answer is 
-	correct or it was wrong.
+If you want to add another player tro the game
+- Select another of the available players, go to this folder and open the "index.html" main web page.
+
+During the game ...
+- Only when you click "siguiente" the timer will be running.
+- As soon as you click "comprobar" the timer stops and you can:
+	* Check whether the answer said by the player is correct or wrong.
+	* Continue with the same player depending on the answer.	
+	* Change to other player in the next navigation tab of your browser.
 
 ### How to configure players and modify questions
  - Download the zip file to your computer and enter on each player folder, inside you will find a folder called js, and in that folder there is a 
 	file called "words.js". Just change this file and you will have a new buch of questions ready.
 	
-	If you want to add a new polayer just duplicate the folder "Team_0" and change the name to "Team_2/3/..."
+	If you want to add a new player just duplicate the folder "Team_0" and change the name to "Team_2/3/..."
 
 
  Just play ...
