@@ -24,7 +24,8 @@ During the game ...
  - Download the zip file to your computer and enter on each player folder, inside you will find a folder called js, and in that folder there is a 
 	file called "words.js". Just change this file and you will have a new buch of questions ready.
 	
-	If you want to add a new player just duplicate the folder "Team_0" and change the name to "Team_2/3/..."
+	If you want to configure the game for more players just duplicate the folder "Team_0" and change the name to "Team_2/3/...". 
+	Then enter in the js folder and edit the words file. Iside that file you can also modify the name of the team/player.
 
 
  Just play ...
