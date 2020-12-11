@@ -10,7 +10,7 @@
 - Select one of the available players, go to this folder and open the "index.html" main web page.
 - Once there click on **Jugar** to start game.
 
-If you want to add another player tro the game
+If you want to add another player to the game
 - Select another of the available players, go to this folder and open the "index.html" main web page.
 
 During the game ...
